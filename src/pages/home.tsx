@@ -24,6 +24,7 @@ const Home = () => {
       picture={product.picture}
       name={product.name}
       price={product.price}
+      stock={product.quantity}
       />
       )}
       <Cart isOpen={isOpen} setIsOpen={setIsOpen} />

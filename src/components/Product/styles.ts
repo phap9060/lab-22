@@ -19,6 +19,11 @@ export const Wrapper = styled.div`
   `}
 `;
 
+export const Alert = styled.span`
+color: red;
+font-size: 1rem;
+`
+
 export const Info = styled.div`
   display: flex;
   align-items: center;

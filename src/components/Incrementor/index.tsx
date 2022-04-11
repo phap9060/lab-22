@@ -6,7 +6,7 @@ import { Wrapper, IconWrapper, Quantity } from "./styles";
 
 type IncrementorProps = {
   id: number;
-  quantity?: number;
+  quantity: number;
   onClickPlus: React.MouseEventHandler<HTMLButtonElement>;
   onClickMinus?: React.MouseEventHandler<HTMLButtonElement>;
 };
